@@ -1,10 +1,10 @@
 
-import { user } from '/src/scripts/services/user.js'
-import { repos } from '/src/scripts/services/repositories.js'
-import { eventUser } from '/src/scripts/services/events.js'
+import { user } from './src/scripts/services/user.js'
+import { repos } from './src/scripts/services/repositories.js'
+import { eventUser } from './src/scripts/services/events.js'
 
-import { objUser } from '/src/scripts/objects/obj.js'
-import { screen } from '/src/scripts/objects/screen.js'
+import { objUser } from './src/scripts/objects/obj.js'
+import { screen } from './src/scripts/objects/screen.js'
 
 const btm = document.querySelector('#btn-search')
 
