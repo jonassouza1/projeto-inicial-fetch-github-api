@@ -1,0 +1,30 @@
+
+const objUser = {
+    avatarUrl: '',
+    name: '',
+    bio: '',
+    userName: '',
+    follower: '',
+    following: '',
+    repositories: [],
+    eventsuser: [],
+    setInfo(gitHubUser) {
+        this.avatarUrl = gitHubUser.avatar_url
+        this.name = gitHubUser.name
+        this.bio = gitHubUser.bio
+        this.userName = gitHubUser.login
+        this.followers = gitHubUser.followers
+        this.following = gitHubUser.following
+    },
+    setRepositories(repositories) {
+        this.repositories = repositories
+    },
+    setEvents(eventsUsers) {
+        this.eventsuser = eventsUsers
+
+
+    }
+}
+
+export { objUser }
+
