@@ -22,7 +22,7 @@ const objUser = {
     setEvents(eventsUsers) {
         this.eventsuser = eventsUsers
 
-l
+
     }
 }
 
